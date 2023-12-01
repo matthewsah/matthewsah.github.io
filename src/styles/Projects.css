@@ -1,0 +1,44 @@
+.portfolio--projects {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #333333, #555555);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.5em;
+}
+
+.portfolio--projects-title {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  padding: 0.2em 0.2em;
+  border-radius: 0.1em;
+  background-color: #c1c4e5;
+  color: #2032d3;
+  margin: 0.5em;
+}
+
+.portfolio--projects-content {
+  display: grid;
+  grid-template-columns: repeat(3, 410px);
+  grid-gap: 3em;
+}
+
+.project-card-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+@media (max-width: 1600px) {
+  .portfolio--projects-content {
+    grid-template-columns: repeat(2, 410px);
+    grid-column-gap: 3.3em;
+  }
+}
+
+@media (max-width: 900px) {
+  .portfolio--projects-content {
+    grid-template-columns: repeat(1, 410px);
+    grid-gap: 1.5em;
+  }
+}

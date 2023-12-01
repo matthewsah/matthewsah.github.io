@@ -1,0 +1,131 @@
+.portfolio--education {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #333333, #555555);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.5em;
+}
+
+.portfolio--education-title {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  padding: 0.2em 0.2em;
+  border-radius: 0.1em;
+  background-color: #e5be3e;
+  color: #2c41ca;
+  margin: 0.5em;
+}
+
+.portfolio--education-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+.yellow {
+  color: #e5be3e;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+ul {
+  margin-left: 1em;
+}
+
+.portfolio--education-course {
+  list-style-type: none;
+  font-size: 1.5em;
+}
+
+.portfolio--education-section-title {
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.3em;
+}
+
+.portfolio--education-section-subtitle {
+  text-align: center;
+  font-size: 2.4em;
+  letter-spacing: 0.03em;;
+  margin-bottom: 0.4em;
+}
+
+.portfolio--education-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portfolio--education-section-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2em;
+  width: 40%;
+}
+
+.portfolio--education-section-img {
+  margin-left: auto;
+  width: 400px;
+}
+
+.portfolio--education-section-text-container {
+  width: 40%;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1400px) {
+  .portfolio--education-section-text-container {
+    width: 45%;
+  }
+}
+
+
+@media(max-width: 900px) {
+  .portfolio--education-section-img-container {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  .portfolio--education-section-img {
+    margin-left: 0;
+    width: 200px;
+  }
+
+  .portfolio--education-section-text-container {
+    padding: 2em 2em;
+    width: 100%;
+  }
+
+  ul {
+    margin-left: 0.5em;
+  }
+
+  .portfolio--education-section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio--education-section-subtitle {
+    margin-bottom: 0.8em;
+  }
+}

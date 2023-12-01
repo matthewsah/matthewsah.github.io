@@ -1,0 +1,70 @@
+
+.portfolio--carousel {
+  position: relative;
+  border-radius: 10px;
+  height: 500px;
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+
+.portfolio--carousel-current-image {
+  width: 99%;
+  height: 99%;
+  object-fit: cover;
+  border-radius: 2em;
+}
+
+.portfolio--carousel-current-image-caption {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.nav-button {
+  font-size: 3em;
+  font-weight: 700;
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+  padding: 0.2em 0.2em;
+  border-radius: 1.5em;
+  border: none;
+  background-color: #527243;
+  color: #e5cedc;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  /* TODO */
+  /* media queries for height and width of portfolio carousel */
+}
+ 
+
+@media(max-width: 1200px) {
+  .portfolio--carousel {
+    height: 400px;
+    width: 550px;
+  }
+
+  .portfolio--carousel-current-image-caption {
+    font-size: 1.6em;
+  }
+}
+  
+@media(max-width: 800px) {
+  .portfolio--carousel {
+    height: 350px;
+    width: 450px;
+  }
+
+  .portfolio--carousel-current-image-caption {
+    font-size: 1.3em;
+  }
+}

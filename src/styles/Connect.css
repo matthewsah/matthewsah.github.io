@@ -1,0 +1,78 @@
+.portfolio--connect {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #333333, #555555);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.5em;
+  margin-bottom: 0;
+}
+
+.portfolio--connect-title {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  padding: 0.2em 0.2em;
+  border-radius: 0.1em;
+  background-color: #338983;
+  color: #c7cbdf;
+  margin: 0.5em;
+}
+
+.portfolio--connect-items {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.connect-icon-container {
+  width: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect-icon {
+  color: #c7cbdf;
+  font-size: 4em;
+}
+
+.connect-icon:hover {
+  color: #338983;
+}
+
+.connect-resume-container {
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+  /* width: 400px; */
+  flex: 1;
+}
+
+.connect-resume {
+  width: 100%;
+  color: #c7cbdf;
+  text-decoration: none;
+}
+
+.connect-resume:hover {
+  color: #338983;
+}
+
+.connect-icon-resume {
+  font-size: 4em;
+}
+
+.connect-resume-text {
+  font-size: 3em;
+  padding-left: 0.5em;
+}
+
+.connect-resume-inner {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}

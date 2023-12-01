@@ -1,0 +1,25 @@
+.portfolio--skills {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #333333, #555555);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.5em;
+}
+
+.portfolio--skills-title {
+  font-size: 4em;
+  letter-spacing: 0.1em;
+  padding: 0.2em 0.2em;
+  border-radius: 0.1em;
+  background-color: #e7ecef;
+  color: #274C77;
+  margin: 0.5em;
+}
+
+.portfolio--skills-section-title {
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  margin-left: 1em;
+}
