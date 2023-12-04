@@ -75,7 +75,7 @@ const Connect = (props: Props) => {
 
 
   return (
-    <div className='portfolio--connect page'>
+    <div className='portfolio--connect page' id='connect'>
       <div className="portfolio--connect-title-container">
         <h1 className='portfolio--connect-title'>Connect</h1>
       </div>

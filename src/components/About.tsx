@@ -78,7 +78,7 @@ const About = (props: Props) => {
           <p className="portfolio--about-text-bottom">
             Outside of my studies, I have been a member of the varsity, division 1 men's 
             tennis team at UCI since 2019 and have been a captain since 2022. 
-            In my free time I love surfing, hiking, travelling, spending time with family, and eating lots of food!
+            In my free time I love surfing, hiking, traveling, spending time with family, and eating lots of food!
           </p>
         </div>
       </div>

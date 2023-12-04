@@ -38,7 +38,7 @@
 
 @media (max-width: 900px) {
   .portfolio--projects-content {
-    grid-template-columns: repeat(1, 410px);
+    grid-template-columns: repeat(1, 370px);
     grid-gap: 1.5em;
   }
 }
